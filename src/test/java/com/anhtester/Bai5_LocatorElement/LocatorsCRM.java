@@ -15,6 +15,11 @@ public class LocatorsCRM {
     public static String menuDashboard = "//span[normalize-space()='Dashboard']";
     public static String menuCustomers = "//span[normalize-space()='Customers']";
     public static String iconProfile = "//li[contains(@class,'header-user-profile')]";
+    public static String menuTasks = "//span[normalize-space()='Tasks']";
+    public static String menuProjects = "//span[normalize-space()='Projects']";
+    public static String menuSales = "//span[@class='menu-text' and normalize-space()='Sales']";
+    public static String menuProposals = "//span[normalize-space()='Proposals']";
+
 
     public static String totalInvoicesAwaitingPayment = "(//span[normalize-space()='Invoices Awaiting Payment']/parent::div)/following-sibling::span";
     public static String totalConvertedLeads = "(//span[normalize-space()='Converted Leads']/parent::div)/following-sibling::span";
@@ -22,5 +27,11 @@ public class LocatorsCRM {
     public static String totalTasksNotFinished = "(//span[normalize-space()='Tasks Not Finished']/parent::div)/following-sibling::span";
 
     //Customer page
+
+    //Task page
+    public static String buttonNewTask = "//a[normalize-space()='New Task']";
+
+    //Proposal page
+    public static String buttonNewProposal = "//a[normalize-space()='New Proposal']";
 
 }
