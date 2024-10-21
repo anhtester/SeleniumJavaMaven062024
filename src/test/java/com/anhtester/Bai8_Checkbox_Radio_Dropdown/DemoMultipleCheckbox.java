@@ -1,9 +1,7 @@
 package com.anhtester.Bai8_Checkbox_Radio_Dropdown;
 
-import com.anhtester.Bai5_LocatorElement.LocatorsCRM;
 import com.anhtester.common.BaseTest;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;

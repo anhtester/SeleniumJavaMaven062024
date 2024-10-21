@@ -1,11 +1,8 @@
 package com.anhtester.Bai7_WebDriver;
 
-import com.anhtester.Bai5_LocatorElement.LocatorsCRM;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 
 import java.time.Duration;
 

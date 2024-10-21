@@ -1,4 +1,4 @@
-package com.anhtester.Bai5_LocatorElement;
+package com.anhtester;
 
 public class LocatorsCRM {
 
@@ -27,6 +27,30 @@ public class LocatorsCRM {
     public static String totalTasksNotFinished = "(//span[normalize-space()='Tasks Not Finished']/parent::div)/following-sibling::span";
 
     //Customer page
+    public static String headerCustomerPage = "//span[normalize-space()='Customers Summary']";
+    public static String buttonAddNewCustomer = "//a[normalize-space()='New Customer']";
+    public static String buttonImportCustomers = "//a[normalize-space()='Import Customers']";
+    public static String inputSearchCustomer = "//div[@id='clients_filter']//input[@type='search']";
+    public static String inputCompany = "//input[@id='company']";
+    public static String inputVat = "//input[@id='vat']";
+    public static String inputPhoneNumber = "//input[@id='phonenumber']";
+    public static String inputWebsite = "//input[@id='website']";
+    public static String dropdownGroup = "//button[@data-id='groups_in[]']";
+    public static String inputSearchGroup = "//button[@data-id='groups_in[]']/following-sibling::div//input";
+    public static String itemVIP = "//button[@data-id='groups_in[]']/following-sibling::div//span[normalize-space()='VIP']";
+    public static String dropdownLanguage = "//button[@data-id='default_language']";
+    public static String itemVietnamese = "//span[normalize-space()='Vietnamese']";
+    public static String inputAddress = "//textarea[@id='address']";
+    public static String inputCity = "//input[@id='city']";
+    public static String inputState = "//input[@id='state']";
+    public static String inputZipCode = "//input[@id='zip']";
+    public static String dropdownCountry = "//button[@data-id='country']";
+    public static String inputSearchCountry = "//button[@data-id='country']/following-sibling::div//input";
+    public static String itemVietnamCountry = "//button[@data-id='country']/following-sibling::div//span[normalize-space()='Vietnam']";
+    public static String buttonSave = "//div[@id='profile-save-section']//button[normalize-space()='Save']";
+    public static String itemCustomerFirst = "//table[@id='clients']/tbody/tr[1]/td[3]/a";
+
+
 
     //Task page
     public static String buttonNewTask = "//a[normalize-space()='New Task']";
